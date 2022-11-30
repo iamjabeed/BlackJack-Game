@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+body {
+  /* background: url(https://images.pexels.com/photos/4253623/pexels-photo-4253623.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: #016f32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  gap: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  background-color: goldenrod;
+  width: 150px;
+  color: #016f32;
+  padding: 10px 16px;
+  /* border: 2px solid goldenrod; */
+  border: unset;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: -10px;
+  transition: all .35s ease-in;
+}
+
+button:hover {
+  background-color: #016f32;
+  color: goldenrod;
+  /* border: 1px solid goldenrod; */
+}
